@@ -1,0 +1,22 @@
+import { StrictMode } from "react";
+import { createRoot, hydrateRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App";
+
+const root = document.getElementById("root")!;
+
+// Pre-rendered multi-page build → hydrate; single-file SPA → mount fresh
+if (root.hasChildNodes()) {
+  hydrateRoot(
+    root,
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  );
+} else {
+  createRoot(root).render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  );
+}

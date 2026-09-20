@@ -1,0 +1,14 @@
+{
+  "name": "KOMP Farming – Φάρσαλα",
+  "short_name": "KOMP Farming",
+  "description": "Φακές Φαρσάλων, όσπρια, σιτηρά, θεριζοαλωνισμοί και ανάληψη καλλιέργειας στον Άγιο Κωνσταντίνο Φαρσάλων.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f0e6",
+  "theme_color": "#1d1b17",
+  "lang": "el",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
